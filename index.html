@@ -1,1 +1,43 @@
-My GitHub Page
+<html>
+<head>
+<style>
+.question{
+	color: blue;
+	cursor: pointer;
+}
+.question+div{
+	margin-left: 1em;
+	font-style: italic;
+}
+</style>
+<script>
+function collapseOrExpandContent(){
+	var s = this.nextElementSibling.style
+	s.display = s.display==='block'?'none':'block'
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+	var list = document.querySelectorAll('.question')
+	for(var i=0;i<list.length;++i){
+		var elem = list[i]
+		elem.addEventListener('click', collapseOrExpandContent)
+		elem.nextElementSibling.style.display = 'none'
+	}
+})
+</script>
+</head>
+<body>
+<h3>Example Of Expandable Answers</h3>
+
+<div>
+<div class="question">How to X?</div>
+<div>The answer is...</div>
+</div>
+
+<div>
+<div class="question">How to Y?</div>
+<div>The Y answer is...</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<html>
+
+
+<head>
+
+<style>
+.question{
+	color: blue;
+	cursor: pointer;
+}
+.question+div{
+	margin-left: 1em;
+}
+</style>
+
+<script>
+function collapseOrExpandContent(){
+	var s = this.nextElementSibling.style
+	s.display = s.display==='block'?'none':'block'
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+	var list = document.querySelectorAll('.question')
+	for(var i=0;i<list.length;++i){
+		var elem = list[i]
+		elem.addEventListener('click', collapseOrExpandContent)
+		elem.nextElementSibling.style.display = 'none'
+	}
+})
+</script>
+</head>
+
+
+<body>
+<h3>nStudy help page</h3>
+<h5>Added This - Ilana</h5>
+<div>
+<div class="question">What is nStudy?</div>
+<div>nStudy is an online learning tool. It helps you organize information about what you study and manage that information. It also keeps track of your work. In this description, we <i>italicize</i> terms that make up the vocabulary of nStudy and how it works.
+</div>
+         
+</div>
+
+<div>
+<div class="question">How do I access nStudy?</div>
+<div>
+<ol>
+<li>Open the <b>Firefox web browser</b>.</li>
+<li>In the address field, enter this URL:  nstudy.educ.sfu.ca/dev.</li>
+<li>A message will appear asking you to install the nStudy add-on. Be sure you follow the steps to install.</li>
+<li>Create an account in nStudy.</li>
+<li>Log in using your ID and password.</li>
+</ol>
+
+When you log in, the nStudy side panel appears on the left side of your browser window. To adjust nstudy panel, click and drag the line right or left. 
+<img src="https://github.com/philwinne/nstudy2_public/raw/gh-pages/nstudy%20panel.png"></img>
+</div>
+
+</div>
+
+<div>
+<div class="question">What to do if I forget my nStudy user name/ password?</div>
+<div><ol>
+<li>Click &#34forgot my password&#34 on the login page </li>
+<li>A link to reset your password will be sent to you.</li>
+</ol>       
+</div>
+
+</div>
+
+
+<div>
+<div class="question">Getting acquainted with nStudy panel:</div>
+<div>
+<img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/nstudy%20full.png"></img>
+</div>
+</div>
+
+<div> Zahia <div>
+
+
+</div>
+
+<div>
+<div class="question">How do I create <i>Objects</i>?</div>
+<div>
+<dl>
+<dt><ol><li>Mod-click &#34My folder&#34</i></dt>
+<dd><sub>NOTE:A mod-click is a right-click for Windows users and a control-click for Mac users<sub></dd>
+<dt><ol><li>Choose an <i>object</i> from the popup menu<li></dt>
+<dd><sub>NOTE:Available objects are: <i><b>Note</i></b>,  <i><b>Term</i></b>,  <i><b>Document</i></b>, and  <i><b>Folder</i></b>.<sub></dd>
+<dt><font color="red"><b>Tip</b>: You can also create objects by mod-clicking a collection such as:</font></dt>
+<dd><li>&#3See Also&#3 in &#3Note&#3 and &#3Term&#3 </li></dd>
+<dd><li>&#3Notes&#3 in <i>Quote</i></li></dd> 	
+<dd><li>A Folder&#39s title</li></dd>
+<font color="red"><b>Tip</b>: To delete an object, mod-click it then choose &#3Remove&#3 from the popup menu.</font></dt> 
+</dl>
+       
+</div>
+
+</div>
+
+<div>
+<div class="question">How to create and fill in a Note?</div>
+<ol>
+<li><dl>
+<dt>Mod-click a collection.</dt>
+<dd><sub> NOTE: nStudy Collections are: <i>&#34My Folder&#34</i>
+, <i>&#34Folder&#34</i>, <i>&#34See also&#34</i>, and <i>&#34Notes&#34</i> in <i>&#34Bookmarks&#34</i> and <i>&#34Quotes&#34</i>
+ </sub></li></dd>
+<dl> 
+<li>Choose &#34<i/>Note</i>&#34 from the popup menu</li>
+<li>Give the note a title by typing over &#34<i>untitled note&#46&#46&#46</i>&#34 </li>
+<li>Enter text by typing over &#34Enter text here&#46&#46&#46&#34 </li>
+<li>To create other objects connected to your note, mod-click &#34<i>See also</i>&#34, then choose from the popup menu.</li>
+<li>if you need to label your <i>Note</i> as &#34important&#34 or &#34to be reviewed&#46&#46&#46&#34 etc&#46, use the tag option by typing over <i>tag</i> </li>
+<li>To copy a <i>Note</i>, mod-click it, then choose &#34Copy Note&#34 from the popup menu.  </li>
+<li><dl>
+<dt>To paste a <i>Note</i>, mod&#45click the collection you want to paste to, then choose &#34Paste Note Here&#34 from the popup menu</dt>
+<dd><sub> NOTE: You can only paste obejcts in collections. nStudy Collections are:   &#34<b><i>My Folder</b></i>&#34, &#34<b><i>Folder</b></i>&#34, &#34<b><i>See also</b></i>&#34, and &#34<b><i>Notes</b></i>&#34 in &#34<i>Bookmarks</i>&#34 and &#34<i>Quotes</i>&#34
+ </sub></li></dd>
+<font color="red"><b>Tip</b>: A triangle pointing to the right means the item is folded up. Anything included in the item is hidden.A triangle pointing downwards means the item is unfolded. You can see what is included in it.</font></dt> 
+<dl></li>
+</ol>
+<div>
+
+<div> Zahia <div>
+
+</div>
+
+<div>
+<div class="question">How to write an essay?</div>
+<ol>
+<li><dl>
+<dt>Mod-click a collection, then choose &#34<i>Document</i>&#34</dt>
+<dd><sub> NOTE: nStudy Collections are:&#34 <i><b>My Folder</i></b>&#34
+, &#34<i><b>Folder</i></b>&#34, &#34<i><b>See also</i></b>&#34, and &#34<i><b>Notes</i></b>&#34 in &#34<i>Bookmarks</i>&#34 and &#34<i>Quotes</i>&#34
+ </sub></li></dd>
+<dl> 
+<li>Type over &#34untitled document&#34 to give your essay a title </li>
+<li>Mod-click the essay&#39s title and choose &#34Open in a New Window&#34, then a popup window will appear.</li>
+<li>Write your essay in the space provided</li>
+<li>You can copy and paste <i>Notes</i>, <i>Quotes</i>, and <i>Terms</i> in your document.  Mod-click the item you want to copy then choose &#34Copy&#34 from the popup window.</li>
+<font color="red"><b>Tip</b>: How to drop and drag items into your essay?
+<ol>
+<li>Mouse over the dot or triangle that marks an item</li>
+<li>Click and hold down the mouse to grab the item</li>
+<li>Drag the item to your essay</li>
+<li><dl>
+<dt>Drop the item by releasing the mouse</dt>
+<dd><sub> NOTE: You can drag and drop <i>Note</i>, <i>Term</i>, <i>Quote</i>, <i>Tag</i>, 
+&#34<i>Text</i>&#34 in <i>Note</i> and &#34<i>Definition</i>&#34 in <i>Term</i></sub></li>
+</ol>
+<b>Tip</b>: The writing document has features similar to MS Word Editor. Some of these features:
+<ol>
+<li>Insert a table</li>
+<li>Insert an Image</li>
+</ol></font></dt>
+</ol>
+<div>
+</div>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,211 @@
+<html>
+
+
+<head>
+
+<style>
+.question{
+	color: blue;
+	cursor: pointer;
+}
+.question+div{
+	margin-left: 1em;
+}
+</style>
+
+<script>
+function collapseOrExpandContent(){
+	var s = this.nextElementSibling.style
+	s.display = s.display==='block'?'none':'block'
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+	var list = document.querySelectorAll('.question')
+	for(var i=0;i<list.length;++i){
+		var elem = list[i]
+		elem.addEventListener('click', collapseOrExpandContent)
+		elem.nextElementSibling.style.display = 'none'
+	}
+})
+</script>
+</head>
+
+
+<body>
+<h3>nStudy help page</h3>
+<h5></h5>
+<div>
+<div class="question">What is nStudy?</div>
+<div><br>nStudy is an online learning tool. It helps you organize information about what you study and manage that information. It also keeps track of your work. In this description, we <i>italicize</i> terms that make up the vocabulary of nStudy and how it works.
+<br><br></div>      
+</div>
+
+<div>
+<div class="question">How do I access nStudy?</div>
+<div>
+<ol>
+<li>Open the <b>Firefox web browser</b>.</li>
+<li>In the address field, enter this URL:  nstudy.educ.sfu.ca/dev.</li>
+<li>A message will appear asking you to install the nStudy add-on. Be sure you follow the steps to install.</li>
+<li>Create an account in nStudy.</li>
+<li>Log in using your ID and password.</li>
+</ol>
+
+<p>When you log in, the nStudy side panel appears on the left side of your browser window. To adjust nstudy panel, click and drag the line right or left. </P>
+<br>
+<img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/nstudy%20panel.png"></img>
+<br><br>
+</div>
+
+</div>
+
+<div>
+<div class="question">What to do if I forget my nStudy user name/ password?</div>
+<div><ol>
+<li>Click &#34forgot my password&#34 on the login page </li>
+<li>A link to reset your password will be sent to you.</li>
+</ol>       
+</div>
+
+</div>
+
+
+<div>
+<div class="question">Getting acquainted with nStudy panel:</div>
+<div>
+<img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/help%20images/panel.png"></img>
+</div>
+</div>
+
+<div> 
+<div class="question">How do I create an <i>Object</i>?</div>
+<div>
+<ol>
+<li>Mod-click &#34My folder&#34</i></li>
+<sub>NOTE:A mod-click is a right-click for Windows users and a control-click for Mac users</sub><br>
+<br> 
+<left><img src="https://raw.github.com/philwinne/nstudy2_public/b0e4088033eb3ffa1120c7262c973dd920ba82ba/help%20images/objects1.png"></img></left>  
+<p><li>Choose an <i>object</i> from the popup menu</li>
+<sub>NOTE:Available objects are: <i><b>Note</i></b>,  <i><b>Term</i></b>,  <i><b>Document</i></b>, and  <i><b>Folder</i></b></sub><br>
+<br>
+<div>
+<div class="question"><font color="red"><b>Tip</b>: You can also create objects by mod-clicking a collection such as:</font></div>
+<div><br><ol>
+<li>&#34<i>See Also</i>&#34 in &#34<i>Note</i>&#34 and &#34<i>Term</i>&#34
+<br>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/b0e4088033eb3ffa1120c7262c973dd920ba82ba/help%20images/objects2.png"></img></left></p>
+<br>
+<p><li>&#34Notes&#34 in </i>Quote</li>
+<br>
+<left><img src="https://raw.github.com/philwinne/nstudy2_public/b0e4088033eb3ffa1120c7262c973dd920ba82ba/help%20images/objects3.png"></img></left>  
+<br>
+<p><li>A Folder&#39s title</li>
+<br>
+<left><img src="https://raw.github.com/philwinne/nstudy2_public/b0e4088033eb3ffa1120c7262c973dd920ba82ba/help%20images/objects4.png"></img></left>   
+<br>
+
+<font color="red"><b>Tip</b>:To delete an object, mod-click it then choose &#3Remove&#3 from the popup menu.</font>  
+
+</dl> </li>
+             
+</div>
+
+<div>
+<br><br></div>      
+</div>
+
+
+
+
+<div class="question">How to create and fill in a Note?</div>
+<ol>
+<li><dl>
+<dt>Mod-click a collection.</dt>
+<dd><sub> NOTE: nStudy Collections are: &#34<i><b>My Folder</b></i>&#34
+, &#34<i><b>Folder</i></b>&#34, &#34<i><b>See also</i></b>&#34, and &#34<i><b>Notes</i></b>&#34 in &#34<i><b>Bookmarks</i></b>&#34 and &#34<i><b>Quotes</i></b>&#34
+ </sub></li></dd>
+ <br>
+ <left><img src="https://raw.github.com/philwinne/nstudy2_public/b0e4088033eb3ffa1120c7262c973dd920ba82ba/help%20images/notes1.png"></img></left>
+<br>
+<dl> 
+<li>Choose &#34<i/>Note</i>&#34 from the popup menu</li>
+<br>
+<li>Give the note a title by typing over &#34<i>untitled note&#46&#46&#46</i>&#34 </li>
+<br>
+<left><img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/help%20images/notes2%20corrected.png"></img></left>
+<br>
+<li>Enter text by typing over &#34Enter text here&#46&#46&#46&#34 </li>
+<br>
+<li>To create other objects connected to your note, mod-click &#34<i>See also</i>&#34, then choose from the popup menu.</li>
+<br>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/b0e4088033eb3ffa1120c7262c973dd920ba82ba/help%20images/notes3.png"></img></left></p>
+<br>
+<li>if you need to label your <i>Note</i> as &#34important&#34 or &#34to be reviewed&#46&#46&#46&#34 etc&#46, use the tag option by typing over <i>tag</i> </li>
+<br>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/b0e4088033eb3ffa1120c7262c973dd920ba82ba/help%20images/notes4.png"></img></left></p>
+<br>
+<li>To copy a <i>Note</i>, mod-click it, then choose &#34Copy Note&#34 from the popup menu.</li>
+<br>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/b0e4088033eb3ffa1120c7262c973dd920ba82ba/help%20images/notes5.png"></img></left></p>
+<br>
+<li><dl>
+<dt>To paste a <i>Note</i>, mod&#45click the collection you want to paste to, then choose &#34Paste Note Here&#34 from the popup menu</dt>
+<dd><sub> NOTE: You can only paste obejcts in collections. nStudy Collections are:   &#34<b><i>My Folder</b></i>&#34, &#34<b><i>Folder</b></i>&#34, &#34<b><i>See also</b></i>&#34, and &#34<b><i>Notes</b></i>&#34 in &#34<i>Bookmarks</i>&#34 and &#34<i>Quotes</i>&#34
+</sub></li></dd>
+<br>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/b0e4088033eb3ffa1120c7262c973dd920ba82ba/help%20images/notes6.png"></img></left></p>
+<br>
+<font color="red"><b>Tip</b>: A triangle pointing to the right means the item is folded up. Anything included in the item is hidden.A triangle pointing downwards means the item is unfolded. You can see what is included in it.</font></dt> 
+<br>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/d9f099b8b6bda8433c33fc74cd61319106288b7b/help%20images/notes7.png"></img></left></p>
+<br>
+<dl></li>
+</ol>
+<div>
+
+
+</div>
+
+<div>
+<div class="question">How to write an essay?</div>
+<ol>
+<li><dl>
+<dt>Mod-click a collection, then choose &#34<i>Document</i>&#34</dt>
+<dd><sub> NOTE: nStudy Collections are:&#34 <i><b>My Folder</i></b>&#34
+, &#34<i><b>Folder</i></b>&#34, &#34<i><b>See also</i></b>&#34, and &#34<i><b>Notes</i></b>&#34 in &#34<i><b>Bookmarks</b></i>&#34 and &#34<i><b>Quotes</b></i>&#34
+ </sub></li></dd>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/help%20images/essay1.png"></img></left></p>
+<dl> 
+<li>Type over &#34untitled document&#34 to give your essay a title </li>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/help%20images/essay2.png"></img></left></p>
+<li>Mod-click the essay&#39s title and choose &#34Open in a New Window&#34, then a popup window will appear.</li>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/help%20images/essay3.png"></img></left></p>
+<li>Write your essay in the space provided</li>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/help%20images/essay4.png"></img></left></p>
+<li>You can copy and paste <i>Notes</i>, <i>Quotes</i>, and <i>Terms</i> in your document.  Mod-click the item you want to copy then choose &#34Copy&#34 from the popup window.</li>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/help%20images/essay5.png"></img></left></p>
+<font color="red"><b>Tip</b>: How to drop and drag items into your essay?
+<ol>
+<li>Mouse over the dot or triangle that marks an item</li>
+<li>Click and hold down the mouse to grab the item</li>
+<li>Drag the item to your essay</li>
+<li>Drop the item by releasing the mouse
+<dd><sub> NOTE: You can drag and drop <i>Note</i>, <i>Term</i>, <i>Quote</i>, <i>Tag</i>, 
+&#34<i>Text</i>&#34 in <i>Note</i> and &#34<i>Definition</i>&#34 in <i>Term</i></sub></dd>
+</ol>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/help%20images/essay6.png"></img></left></p>
+<b>Tip</b>: The writing document has features similar to MS Word Editor. Some of these features:
+<ol>
+<li>Insert a table</li>
+<li>Insert an Image</li>
+</ol>
+<p><left><img src="https://raw.github.com/philwinne/nstudy2_public/gh-pages/help%20images/essay7.png"></img></left></p></font></dt>
+</ol>
+<div>
+</div>
+
+
+</body>
+
+
+</html>

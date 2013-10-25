@@ -3,21 +3,6 @@
 <script src="./opentip-native.js"></script>
 <link href="./opentip.css" rel="stylesheet" type="text/css" />
 <link href="./main.css" rel="stylesheet" type="text/css" />
-<script>
-function collapseOrExpandContent(){
-	var s = this.nextElementSibling.style
-	s.display = s.display==='block'?'none':'block'
-}
-
-document.addEventListener('DOMContentLoaded', function(){
-	var list = document.querySelectorAll('.question')
-	for(var i=0;i<list.length;++i){
-		var elem = list[i]
-		elem.addEventListener('click', collapseOrExpandContent)
-		elem.nextElementSibling.style.display = 'none'
-	}
-})
-</script>
 </head>
 <body>
 <a name="starting" class="header">Getting Started</a>

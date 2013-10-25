@@ -1,0 +1,36 @@
+.question{
+	color: blue;
+	cursor: pointer;
+	display: block;
+}
+
+.term{
+	color: red;
+	text-decoration: underline;
+}
+.header{
+	font-size: x-large;
+	margin-top: 2ex;
+	display: block;
+}
+.header_description{
+	margin-top: 1ex;
+	margin-bottom: 2ex;
+	display: block;
+	font-style: italic;
+}
+
+#nav{
+	float: left;
+	width: 33%;
+	height: 100%;
+	margin-right: 2em;
+	border: none;
+	border-right: .2em solid gray;
+}
+#main{
+	float: right;
+	width: 66%;
+	height: 100%;
+	border: none;
+}

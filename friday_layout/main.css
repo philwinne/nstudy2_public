@@ -34,3 +34,8 @@
 	height: 100%;
 	border: none;
 }
+
+body > div:nth-of-type(1){
+	width: 64%;
+	overflow-x: hidden;
+}

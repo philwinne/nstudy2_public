@@ -1,0 +1,64 @@
+.question{
+	color: blue;
+	cursor: pointer;
+	display: block;
+}
+
+.term{
+	color: red;
+	text-decoration: underline;
+}
+.header{
+	font-size: x-large;
+	margin-top: 2ex;
+	display: block;
+}
+.header_description{
+	margin-top: 1ex;
+	margin-bottom: 2ex;
+	display: block;
+	font-style: italic;
+}
+
+
+#main{
+	float: right;
+	width: 66%;
+	height: 100%;
+	border: none;
+}
+
+body{
+}
+body > *{
+	width: 60%;
+	overflow-x: hidden;
+	margin: 0em;
+	padding: 0em;
+	padding-left: 1em;
+	top: 3ex;
+	left: 33%;
+	position: absolute;
+}
+
+#nav{
+	position: absolute;
+	width: 33%;
+	top: 0;
+	left: 0;
+	margin-right: 2em;
+	border: none;
+	border-right: .2em solid gray;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+#navbody{
+	width: 95%;
+}
+#navbody > *{
+	width: inherit;
+	overflow-x: default;
+	padding 1em;
+	position: inherit;
+}

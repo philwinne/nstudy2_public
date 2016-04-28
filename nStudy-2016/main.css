@@ -31,19 +31,20 @@
 body{
 }
 body > *{
-	width: 60%;
+	width: 70%;
 	overflow-x: hidden;
 	margin: 0em;
 	padding: 0em;
+	padding-top: 1em;
 	padding-left: 1em;
 	top: 3ex;
-	left: 33%;
+	left: 30%;
 	position: absolute;
 }
 
 #nav{
 	position: absolute;
-	width: 33%;
+	width: 30%;
 	top: 0;
 	left: 0;
 	margin-right: 2em;
